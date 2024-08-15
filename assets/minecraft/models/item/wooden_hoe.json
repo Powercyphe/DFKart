@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "gui_light": "front",
+  "textures": {
+    "layer0": "minecraft:item/wooden_hoe"
+  },
+  "overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "item/karts/basic_kart" },
+		{ "predicate": { "custom_model_data": 2}, "model": "item/karts/shopping_kart" }
+	]
+}
